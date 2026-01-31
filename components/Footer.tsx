@@ -1,4 +1,18 @@
+/**
+ * Footer Component
+ *
+ * Displays the site footer with copyright and closing message.
+ * - Full viewport height to complete the scrolling demo
+ * - Dark background (zinc-900) for strong visual separation
+ * - Dynamic year for copyright notice
+ * - Accessible footer landmark with contentinfo role
+ *
+ * @component
+ * @returns {JSX.Element} Footer with title, description, and copyright
+ */
+
 export default function Footer() {
+  // Get current year for copyright notice
   const year = new Date().getFullYear();
 
   return (

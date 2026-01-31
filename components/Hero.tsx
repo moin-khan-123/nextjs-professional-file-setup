@@ -1,3 +1,16 @@
+/**
+ * Hero Component
+ *
+ * Displays the hero section with intro messaging and branding.
+ * - Full viewport height for visual impact
+ * - Gradient background (indigo to white)
+ * - Accessible heading structure with ARIA labels
+ * - Responsive image display
+ *
+ * @component
+ * @returns {JSX.Element} Hero section with title, description, and logo
+ */
+
 import Image from 'next/image';
 
 export default function Hero() {

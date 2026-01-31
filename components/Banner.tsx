@@ -1,3 +1,16 @@
+/**
+ * Banner Component
+ *
+ * Displays a mid-page feature banner section.
+ * - Full viewport height for consistent scrolling demo
+ * - Yellow background to visually separate from Hero
+ * - Centered heading and description
+ * - Accessible with semantic role and label
+ *
+ * @component
+ * @returns {JSX.Element} Banner section with feature title and description
+ */
+
 export default function Banner() {
   return (
     <section
